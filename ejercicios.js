@@ -32,3 +32,21 @@ car2.finalPrice = car2.basePrice + globalBasePrice;
 
 console.log(car1.finalPrice);
 console.log(car2.finalPrice);
+
+// Iteración 3 // 
+
+let a = 10;
+let b = 5;
+let c = 2;
+let d = 15;
+let e = 9;
+
+var y = 10;
+var z = 5;
+
+console.log("El resultado de 10 por 5 es iagual a " + a * b);
+console.log("El resultado de 10 entre 2 es igual a " + a / c);
+console.log("El resto de dividir 15 por 9 es igual a " + d % e);
+
+console.log(y + z);
+console.log(y * z);
