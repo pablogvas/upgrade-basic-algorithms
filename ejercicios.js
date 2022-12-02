@@ -76,3 +76,27 @@ if (number3*5 == number1 && number1*2 == number2) {
 if (number2/2 == number1 || number1/5 == number3) {
     console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
+
+// Iteración 4 //
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers[0]);
+
+avengers.splice(0, 1, "IRONMAN");
+console.log(avengers);
+
+console.log(avengers.length);
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push("Morty", "Summer");
+console.log(rickAndMortyCharacters[4]);
+
+const rickAndMortyCharacters2 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters2.pop();
+console.log(rickAndMortyCharacters2[0]);
+console.log(rickAndMortyCharacters2[4]);
+
+const rickAndMortyCharacters3 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters3.splice(1,1);
+console.log(rickAndMortyCharacters3);
+
