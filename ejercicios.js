@@ -100,3 +100,23 @@ const rickAndMortyCharacters3 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "La
 rickAndMortyCharacters3.splice(1,1);
 console.log(rickAndMortyCharacters3);
 
+// Iteración 6 //
+
+for (var i = 0; i <= 9; i++) {
+    console.log(i);
+}
+
+for (var i = 0; i <= 9; i++) {
+    if (i % 2 == 0){
+        console.log(i);
+    }
+}
+
+for (var i = 0; i <= 10; i++) {
+    if (i < 10) {
+        console.log("Intentando dormir");
+    }
+    if (i == 10) {
+        console.log("Dormido");
+    }
+}
